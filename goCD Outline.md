@@ -1,11 +1,10 @@
 ##goCD outline##
-Candace Hicks and Kaitlyn Glodde
 
 1. Explain why goCD is resourceful
 
 	a. Model complex workflows - can configure dependencies - features allow you to run networks of processes in parallel and in a predictable way.
 
-	b. See how your workflow really works - goCD tracks changes from a commi, good to use if something goes wrong.
+	b. See how your workflow really works - goCD tracks changes from a commit, good to use if something goes wrong.
 
 	c. You can deploy any version at any time
 
