@@ -1,4 +1,5 @@
 ##goCD outline##
+Candace Hicks and Kaitlyn Glodde
 
 1. Explain why goCD is resourceful
 
