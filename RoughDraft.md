@@ -11,8 +11,14 @@
 You can download goCD from https://www.gocd.io/download/. It is suggested that you use a 64-bit server with a 32-bit agent, so that is what we did.  We followed the prompts for installation on both, making sure we bundled JRE instead of specifying the location of our JDK so that there were no future issues for us. The agent can also be found at the same URL. For our agent, we left the URL blank so that the default would be set to the local host. goCD made it's own icon based on default. We clicked it and it brought up goCD in Google Chrome. There are three steps listed. 
 
 Step 1: Basic Settings - We set up our Pipeline name as CandaceandKaitlyn and the Pipeline Group name as default. Clicked next.
-Step 2: Materials - There is an option for material type. Under this, there are several things listed. For example, there is subversion, git, mercurial, etc. For now, we chose Git as the "Material Type" and for the URL, we are using the laravel git repository. goCD will be looking at the master branch. "poll for new changes" was already marked, so we kept that as default. We then checked the connection to make sure goCD understood the URL it was given.
 
+Step 2: Materials - There is an option for material type. Under this, there are several things listed. For example, there is subversion, git, mercurial, etc. For now, we chose Git as the "Material Type" and for the URL, we are using the laravel git repository. goCD will be looking at the master branch. "poll for new changes" was already marked, so we kept that as default. We then checked the connection to make sure goCD understood the URL it was given.
+You can then continue to the next step.
+
+Step 3: Stage/Job - Stage name is Stage1. Job Name - defaultJob. We changed the task type to the ./build command and we pressed finish. Pipeline is now made.
+
+####Results#
+The pipeline is paused so that you can change some settings. 
 
 ####Usefulness#
 goCD is useful for large files. It will show you mapping between different files. This is important when you want to see what relies on something else. The pipeline will execute each file based on the hierarchy and you are able to see which files are children to parents. You are also able to see exact git commits made by someone at a certain time and see the product growing over time.  It gives you a lot of visibility into  who's doing what.
