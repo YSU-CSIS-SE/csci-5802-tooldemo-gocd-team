@@ -18,7 +18,9 @@ You can then continue to the next step.
 Step 3: Stage/Job - Stage name is Stage1. Job Name - defaultJob. We changed the task type to the ./build command and we pressed finish. Pipeline is now made.
 
 ####Results#
-The pipeline is paused so that you can change some settings. You can now unpause it for now to see the output. It will slowly try to build. Right now, it is failing... We tried triggering the pipeline but there is something going wrong. I think someone made a change while i was trying to set goCD up and run and now i am getting a name for a commit when i check the changes.
+The pipeline is paused so that you can change some settings. You can now unpause it for now to see the output. It will slowly try to build. Right now, it is failing... We tried triggering the pipeline but there is something going wrong. I think someone made a change while i was trying to set goCD up and run and now i am getting a name for a commit when i check the changes. It shows that last commit by taylor Otwell and the merge request he put in.
+
+Instead of laravel, we decided a repository with relatively no activity would help fix the issue. In  
 
 ####Usefulness#
 goCD is useful for large files. It will show you mapping between different files. This is important when you want to see what relies on something else. The pipeline will execute each file based on the hierarchy and you are able to see which files are children to parents. You are also able to see exact git commits made by someone at a certain time and see the product growing over time.  It gives you a lot of visibility into  who's doing what.
